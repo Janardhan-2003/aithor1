@@ -23,7 +23,7 @@ const HeaderPage=()=>{
                     </a>
                     </li>
                 <li>
-                    <a href='https://github.com/Janardhan-2003/Aithor' target='_blank' className='anchor-tag'>
+                    <a href='https://github.com/Janardhan-2003/Aithor1' target='_blank' className='anchor-tag'>
                     <FaGithub/>
                     </a>
                     </li>

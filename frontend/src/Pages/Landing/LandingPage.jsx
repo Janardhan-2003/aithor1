@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Skeleton from 'react-loading-skeleton'
 import HeaderPage from '../../components/Header/HeaderPage';
 import {v4 as uuidv4} from 'uuid';
@@ -12,6 +12,10 @@ const LandingPage=()=>{
     const [definition, setDefinition]=useState('Aithor is an intelligent, AI-powered word exploration and definition tool designed to help users understand language in a deeper, more interactive way. With just a click or search, Aithor fetches detailed, contextual explanations of any word using cutting-edge generative AI models. It transforms passive reading into an engaging learning experience by allowing users to explore definitions inline without leaving the page. Fast, intuitive, and beautifully animated, Aithor is ideal for students, writers, and curious minds who want to expand their vocabulary and comprehension effortlessly.')
     const [loader, setLoader]=useState(false)
     const [searchInputValue, setSearchInputValue]=useState('')
+
+    useEffect(()=>{
+        document.title=title
+    })
 
     const capitalizeFirstLetter = (word) => {
         if (!word) return '';
@@ -64,6 +68,9 @@ const LandingPage=()=>{
                 <div className='skeleton'>
 
                     <Skeleton height={25} width='100%' className="skeleton-line"></Skeleton>
+                    <Skeleton height={25} width='90%' className="skeleton-line"></Skeleton>
+                    <Skeleton height={25} width='100%' className="skeleton-line"></Skeleton>
+                    <Skeleton height={25} width='70%' className="skeleton-line"></Skeleton>
                     <Skeleton height={25} width='90%' className="skeleton-line"></Skeleton>
                     <Skeleton height={25} width='100%' className="skeleton-line"></Skeleton>
                     <Skeleton height={25} width='70%' className="skeleton-line"></Skeleton>

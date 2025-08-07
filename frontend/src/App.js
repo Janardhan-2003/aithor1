@@ -1,4 +1,4 @@
-
+import { Analytics } from "@vercel/analytics/react"
 import LandingPage from './Pages/Landing/LandingPage';
 import './App.css';
 

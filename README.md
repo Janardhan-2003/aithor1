@@ -45,7 +45,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 📬 Contact
 
-If you have any questions or suggestions, feel free to contact me at [your-email@example.com](jrkokatam.09@gmail.com).
+If you have any questions or suggestions, feel free to contact me at [jrkokatam.09@gmail.com](jrkokatam.09@gmail.com).
 
 ## 💖 Thanks
 

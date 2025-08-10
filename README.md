@@ -16,90 +16,18 @@ A web application that provides definitions for words using the Google Gemini AI
 
 *   **Frontend:**
     *   React
-    *   React DOM
-    *   React Scripts
     *   React Loading Skeleton
     *   CSS
 *   **Backend:**
     *   Node.js
     *   Express
     *   CORS
-    *   dotenv
-    *   Body-parser
-    *   @google/generative-ai
 *   **API:**
     *   Google Gemini API
 
 ## 📦 Getting Started
 
 Follow these instructions to get the project up and running on your local machine.
-
-### Prerequisites
-
-*   Node.js (v18 or higher)
-*   npm or yarn
-*   A Google Gemini API key. Get one [here](https://makersuite.google.com/app/apikey).
-
-### Installation
-
-1.  **Clone the repository:**
-
-    ```bash
-    git clone <repository_url>
-    cd infinite-word
-    ```
-
-2.  **Install frontend dependencies:**
-
-    ```bash
-    cd frontend
-    npm install
-    ```
-
-3.  **Create a `.env` file in the `frontend` directory**
-
-    ```
-    REACT_APP_GEMINI_API_KEY=YOUR_GEMINI_API_KEY
-    ```
-
-    Replace `YOUR_GEMINI_API_KEY` with your actual Gemini API key.
-
-4.  **Install backend dependencies:**
-
-    ```bash
-    cd ../backend
-    npm install
-    ```
-
-5.  **Create a `.env` file in the `backend` directory**
-
-    ```
-    REACT_APP_GEMINI_API_KEY=YOUR_GEMINI_API_KEY
-    ```
-
-    Replace `YOUR_GEMINI_API_KEY` with your actual Gemini API key.
-
-### Running Locally
-
-1.  **Start the backend server:**
-
-    ```bash
-    cd backend
-    npm start
-    ```
-
-    The backend server will start on `http://localhost:5000`.
-
-2.  **Start the frontend development server:**
-
-    ```bash
-    cd ../frontend
-    npm start
-    ```
-
-    The frontend development server will start on `http://localhost:3000`.
-
-3.  **Open your browser and navigate to `http://localhost:3000` to view the application.**
 
 ## 💻 Project Structure
 

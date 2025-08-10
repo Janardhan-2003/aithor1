@@ -29,51 +29,6 @@ A web application that provides definitions for words using the Google Gemini AI
 
 Follow these instructions to get the project up and running on your local machine.
 
-## 💻 Project Structure
-
-```
-infinite-word/
-├── backend/
-│   ├── index.js             # Backend server entry point
-│   ├── package.json         # Backend dependencies and scripts
-│   ├── node_modules/        # Backend dependencies
-│   └── .env                 # Environment variables
-├── frontend/
-│   ├── public/              # Public assets (HTML, images, etc.)
-│   │   ├── index.html       # Main HTML file
-│   │   └── ...
-│   ├── src/                 # React application source code
-│   │   ├── App.js           # Main application component
-│   │   ├── App.css          # Global styles
-│   │   ├── index.js         # React entry point
-│   │   ├── index.css        # Global styles
-│   │   ├── components/      # Reusable React components
-│   │   │   ├── Header/
-│   │   │   │   ├── HeaderPage.jsx   # Header component
-│   │   │   │   ├── HeaderPage.css   # Header styles
-│   │   │   │   └── ...
-│   │   ├── Pages/
-│   │   │   ├── Landing/
-│   │   │   │   ├── LandingPage.jsx  # Landing page component
-│   │   │   │   ├── LandingPage.css  # Landing page styles
-│   │   │   │   └── ...
-│   │   ├── api/             # API interaction functions
-│   │   │   ├── define.js      # Function to fetch definitions
-│   │   │   └── ...
-│   │   ├── reportWebVitals.js # Performance monitoring
-│   │   └── ...
-│   ├── package.json         # Frontend dependencies and scripts
-│   ├── node_modules/        # Frontend dependencies
-│   └── .env                 # Environment variables
-├── .gitignore             # Specifies intentionally untracked files that Git should ignore
-├── README.md              # Project documentation (this file)
-└── ...
-```
-
-## 📸 Screenshots
-
-(Add screenshots of the application here to showcase its features and UI.)
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
